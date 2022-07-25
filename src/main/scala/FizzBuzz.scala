@@ -1,5 +1,5 @@
 object FizzBuzz{
-  def main(args: Array[String]): Unit = {
-
+  def generate(number: Int): String = {
+    "1"
   }
 }
