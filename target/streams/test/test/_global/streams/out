@@ -1,13 +1,14 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FizzBuzzTest, org.scalatest.tools.Framework$$anon$1@23782c28, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FizzBuzzTest, org.scalatest.tools.Framework$$anon$1@5cdb7a97, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mFizzBuzzTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- lists the numbers up to one[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- lists the numbers up to two[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- lists Fizz divisible by three[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- lists Buzz when divisible by five[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 416 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- replaces Fizz divisible by three[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- replaces Buzz when divisible by five[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- replaces FizzBuzz when divisible by five and three[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 432 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	FizzBuzzTest[0m
