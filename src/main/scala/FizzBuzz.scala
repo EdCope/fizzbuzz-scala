@@ -1,10 +1,13 @@
 object FizzBuzz{
   def generate(number: Int): String = {
-    if (number == 2) {
-      return "1, 2"
-    } else if (number == 3) {
-      return "1, 2, Fizz"
+    val resultArr = new Array[String](number)
+    for( current <- 1 to number){
+      if(current % 3 == 0){
+        resultArr(current-1) = "Fizz"
+      }else {
+        resultArr(current-1) = s"$current"
+      }
     }
-    "1"
+    resultArr.filter(_ != null).mkString(", ")
   }
 }
