@@ -4,7 +4,9 @@ object FizzBuzz{
     for( current <- 1 to number){
       if(current % 3 == 0){
         resultArr(current-1) = "Fizz"
-      }else {
+      } else if(current % 5 == 0){
+        resultArr(current-1) = "Buzz"
+      } else {
         resultArr(current-1) = s"$current"
       }
     }
