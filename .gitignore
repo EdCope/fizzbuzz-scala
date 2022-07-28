@@ -3,6 +3,7 @@
 *.iml
 *.ipr
 *.iws
+.bsp
 .idea
 out
 .cache/
